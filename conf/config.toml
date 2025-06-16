@@ -24,8 +24,8 @@ test_group_size = 1000
 
 # 连通性测试
 [connect_test]
-url = "http://www.google.com/generate_204"
-expected = 204
+url = "http://www.apple.com/library/test/success.html"
+expected = 200
 timeout = 500
 
 # 带宽测速配置
