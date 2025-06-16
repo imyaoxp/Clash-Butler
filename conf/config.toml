@@ -20,7 +20,7 @@ pools = [
 ]
 
 # 测试分组大小
-test_group_size = 50
+test_group_size = 1000
 
 # 连通性测试
 [connect_test]
