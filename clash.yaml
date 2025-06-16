@@ -72,18 +72,6 @@ dns:
   - https://dns.alidns.com/dns-query
 proxies:
 - cipher: aes-128-gcm
-  name: 04-013-HK
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 806
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-014-HK
   password: ayucloud1
   plugin: obfs
@@ -611,18 +599,6 @@ proxies:
   port: 840
   server: 231103level1.unclemanco.com
   type: ss
-- cipher: aes-128-gcm
-  name: 04-096-HK
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9051
-  server: 231103level1.unclemanco.com
-  type: ss
 - cipher: aes-256-cfb
   name: 07-222-PT
   password: f8f7aCzcPKbsF8p3
@@ -636,12 +612,6 @@ proxies:
   server: 103.186.155.24
   type: ss
 - cipher: aes-256-cfb
-  name: 07-224-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.19
-  type: ss
-- cipher: aes-256-cfb
   name: 07-225-VN
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
@@ -652,12 +622,6 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.27
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-228-KR
-  password: qwerREWQ@@
-  port: 11389
-  server: 221.150.109.89
   type: ss
 - cipher: aes-256-cfb
   name: 07-229-KR
@@ -680,7 +644,6 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 04-013-HK
   - 04-014-HK
   - 04-015-HK
   - 04-021-HK
@@ -725,13 +688,10 @@ proxy-groups:
   - 04-093-HK
   - 04-094-HK
   - 04-095-HK
-  - 04-096-HK
   - 07-222-PT
   - 07-223-VN
-  - 07-224-VN
   - 07-225-VN
   - 07-226-VN
-  - 07-228-KR
   - 07-229-KR
 - name: Fallback
   type: fallback
@@ -749,7 +709,6 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 04-013-HK
   - 04-014-HK
   - 04-015-HK
   - 04-021-HK
@@ -794,7 +753,6 @@ proxy-groups:
   - 04-093-HK
   - 04-094-HK
   - 04-095-HK
-  - 04-096-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
