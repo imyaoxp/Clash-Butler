@@ -1,5 +1,5 @@
 # 是否开启快速模式，快速模式下仅测试连通性
-fast_mode = false
+fast_mode = true
 
 # 待测速的订阅节点
 # 支持网络地址 https://xxx
@@ -9,7 +9,7 @@ subs = [
 ]
 
 # 是否重命名节点，打开后会使用 geoip 等方式进行代理真实 IP 和地理地址查询
-rename_node = true
+rename_node = false
 rename_pattern = "${COUNTRYCODE}_${CITY}_${ISP}"
 
 # 是否需要加上代理池的节点一起筛选
