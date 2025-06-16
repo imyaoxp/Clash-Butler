@@ -72,7 +72,19 @@ dns:
   - https://dns.alidns.com/dns-query
 proxies:
 - cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD1
+  name: 04-013-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 806
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-014-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -80,23 +92,47 @@ proxies:
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
-  port: 823
+  port: 913
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD2
-  password: ayds232sffssd1
+  name: 04-015-HK
+  password: ayucloud1
   plugin: obfs
   plugin-opts:
     host: 4ca1c110626.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
-  port: 44444
-  server: 231103level2.unclemanco.com
+  port: 817
+  server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI1
+  name: 04-021-HK
+  password: ayucew2
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9001
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-022-HK
+  password: ayuclsaa
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 807
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-025-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -108,139 +144,7 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI10
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 840
-  server: 231103level1.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI2
-  password: a12cloud1
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 904
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI3
-  password: ayu1245
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 824
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI4
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9063
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI5
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 20012
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI6
-  password: ayucles1
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 907
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI7
-  password: ayds23sd1
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 39004
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI8
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 8001
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Hong Kong_Akile LTD_OpenAI9
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9047
-  server: 231103level1.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited1
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9053
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited2
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 912
-  server: 231103level1.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI1
+  name: 04-026-HK
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -252,19 +156,7 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI10
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 4ca1c110626.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9052
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI2
+  name: 04-027-HK
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -276,7 +168,7 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI3
+  name: 04-028-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -288,7 +180,7 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI4
+  name: 04-029-HK
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -300,7 +192,7 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI5
+  name: 04-030-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -312,7 +204,7 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI6
+  name: 04-031-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -324,7 +216,31 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI7
+  name: 04-032-HK
+  password: a12cloud1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 904
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-033-HK
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 824
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-034-HK
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -336,7 +252,7 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI8
+  name: 04-035-HK
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -344,23 +260,35 @@ proxies:
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
-  port: 9022
-  server: 231103level2.unclemanco.com
+  port: 9063
+  server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: HK_Tsuen Wan_Hytron Network Services Limited_OpenAI9
-  password: fsfal2
+  name: 04-036-HK
+  password: QHPy2u
   plugin: obfs
   plugin-opts:
     host: 4ca1c110626.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
-  port: 916
-  server: 231103level2.unclemanco.com
+  port: 20012
+  server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: JP_Minamishinagawa_Black Mesa Corporation_OpenAI1
+  name: 04-037-HK
+  password: ayucles1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 907
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-038-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -368,11 +296,11 @@ proxies:
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
-  port: 818
-  server: 231103level2.unclemanco.com
+  port: 823
+  server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: JP_Minamishinagawa_Black Mesa Corporation_OpenAI2
+  name: 04-039-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -380,47 +308,119 @@ proxies:
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
-  port: 813
-  server: 231103level2.unclemanco.com
+  port: 9059
+  server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: JP_Minamishinagawa_Black Mesa Corporation_OpenAI3
-  password: ay232sffssd1
+  name: 04-040-HK
+  password: ayucloud1
   plugin: obfs
   plugin-opts:
     host: 4ca1c110626.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
-  port: 4321
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-256-cfb
-  name: KR_Gwanak-gu_Korea Telecom_OpenAI
-  password: qwerREWQ@@
-  port: 5344
-  server: 125.141.26.14
-  type: ss
-- cipher: aes-256-cfb
-  name: PT_Lisbon_I4W - Web Solutions, Lda_OpenAI
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+  port: 9062
+  server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: SG_Singapore_DigitalOcean, LLC_OpenAI
-  password: dajkdkjda&dja*/?
+  name: 04-041-HK
+  password: ayucloud1
   plugin: obfs
   plugin-opts:
     host: 4ca1c110626.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
-  port: 19999
-  server: 231103level2.unclemanco.com
+  port: 819
+  server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: TW_Chang-hua_Chunghwa Telecom Co., Ltd._OpenAI1
+  name: 04-042-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9021
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-043-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 914
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-044-HK
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 909
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-045-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 918
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-046-HK
+  password: ay2dsd1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 811
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-047-HK
+  password: fjlfjafl231303831
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 1313
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-048-HK
+  password: ay21d1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 901
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-059-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -432,7 +432,31 @@ proxies:
   server: 231103level2.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: TW_Chang-hua_Chunghwa Telecom Co., Ltd._OpenAI2
+  name: 04-060-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9022
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-061-HK
+  password: fsfal2
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 916
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-062-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -443,29 +467,203 @@ proxies:
   port: 926
   server: 231103level2.unclemanco.com
   type: ss
+- cipher: aes-128-gcm
+  name: 04-063-HK
+  password: ayds23sd1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 39004
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-064-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9053
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-065-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 8001
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-066-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9052
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-067-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 818
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-068-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 813
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-069-HK
+  password: ay232sffssd1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 4321
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-078-HK
+  password: dajkdkjda&dja*/?
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 19999
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-082-HK
+  password: ayds232sffssd1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 44444
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-093-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9047
+  server: 231103level1.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-094-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 912
+  server: 231103level1.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-095-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 840
+  server: 231103level1.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-096-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 4ca1c110626.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9051
+  server: 231103level1.unclemanco.com
+  type: ss
 - cipher: aes-256-cfb
-  name: VN_Hải Dương_FASTLY_OpenAI1
+  name: 07-222-PT
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
+- cipher: aes-256-cfb
+  name: 07-223-VN
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.24
   type: ss
 - cipher: aes-256-cfb
-  name: VN_Hải Dương_FASTLY_OpenAI2
+  name: 07-224-VN
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.19
   type: ss
 - cipher: aes-256-cfb
-  name: VN_Hải Dương_FASTLY_OpenAI3
+  name: 07-225-VN
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.25
   type: ss
 - cipher: aes-256-cfb
-  name: VN_Hải Dương_FASTLY_OpenAI4
+  name: 07-226-VN
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.27
+  type: ss
+- cipher: aes-256-cfb
+  name: 07-228-KR
+  password: qwerREWQ@@
+  port: 11389
+  server: 221.150.109.89
+  type: ss
+- cipher: aes-256-cfb
+  name: 07-229-KR
+  password: qwerREWQ@@
+  port: 5344
+  server: 125.141.26.14
   type: ss
 proxy-groups:
 - name: PROXY
@@ -482,42 +680,59 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - HK_Hong Kong_Akile LTD1
-  - HK_Hong Kong_Akile LTD2
-  - HK_Hong Kong_Akile LTD_OpenAI1
-  - HK_Hong Kong_Akile LTD_OpenAI10
-  - HK_Hong Kong_Akile LTD_OpenAI2
-  - HK_Hong Kong_Akile LTD_OpenAI3
-  - HK_Hong Kong_Akile LTD_OpenAI4
-  - HK_Hong Kong_Akile LTD_OpenAI5
-  - HK_Hong Kong_Akile LTD_OpenAI6
-  - HK_Hong Kong_Akile LTD_OpenAI7
-  - HK_Hong Kong_Akile LTD_OpenAI8
-  - HK_Hong Kong_Akile LTD_OpenAI9
-  - HK_Tsuen Wan_Hytron Network Services Limited1
-  - HK_Tsuen Wan_Hytron Network Services Limited2
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI1
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI10
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI2
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI3
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI4
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI5
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI6
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI7
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI8
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI9
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI1
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI2
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI3
-  - KR_Gwanak-gu_Korea Telecom_OpenAI
-  - PT_Lisbon_I4W - Web Solutions, Lda_OpenAI
-  - SG_Singapore_DigitalOcean, LLC_OpenAI
-  - TW_Chang-hua_Chunghwa Telecom Co., Ltd._OpenAI1
-  - TW_Chang-hua_Chunghwa Telecom Co., Ltd._OpenAI2
-  - VN_Hải Dương_FASTLY_OpenAI1
-  - VN_Hải Dương_FASTLY_OpenAI2
-  - VN_Hải Dương_FASTLY_OpenAI3
-  - VN_Hải Dương_FASTLY_OpenAI4
+  - 04-013-HK
+  - 04-014-HK
+  - 04-015-HK
+  - 04-021-HK
+  - 04-022-HK
+  - 04-025-HK
+  - 04-026-HK
+  - 04-027-HK
+  - 04-028-HK
+  - 04-029-HK
+  - 04-030-HK
+  - 04-031-HK
+  - 04-032-HK
+  - 04-033-HK
+  - 04-034-HK
+  - 04-035-HK
+  - 04-036-HK
+  - 04-037-HK
+  - 04-038-HK
+  - 04-039-HK
+  - 04-040-HK
+  - 04-041-HK
+  - 04-042-HK
+  - 04-043-HK
+  - 04-044-HK
+  - 04-045-HK
+  - 04-046-HK
+  - 04-047-HK
+  - 04-048-HK
+  - 04-059-HK
+  - 04-060-HK
+  - 04-061-HK
+  - 04-062-HK
+  - 04-063-HK
+  - 04-064-HK
+  - 04-065-HK
+  - 04-066-HK
+  - 04-067-HK
+  - 04-068-HK
+  - 04-069-HK
+  - 04-078-HK
+  - 04-082-HK
+  - 04-093-HK
+  - 04-094-HK
+  - 04-095-HK
+  - 04-096-HK
+  - 07-222-PT
+  - 07-223-VN
+  - 07-224-VN
+  - 07-225-VN
+  - 07-226-VN
+  - 07-228-KR
+  - 07-229-KR
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -534,30 +749,52 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - HK_Hong Kong_Akile LTD1
-  - HK_Hong Kong_Akile LTD2
-  - HK_Hong Kong_Akile LTD_OpenAI1
-  - HK_Hong Kong_Akile LTD_OpenAI10
-  - HK_Hong Kong_Akile LTD_OpenAI2
-  - HK_Hong Kong_Akile LTD_OpenAI3
-  - HK_Hong Kong_Akile LTD_OpenAI4
-  - HK_Hong Kong_Akile LTD_OpenAI5
-  - HK_Hong Kong_Akile LTD_OpenAI6
-  - HK_Hong Kong_Akile LTD_OpenAI7
-  - HK_Hong Kong_Akile LTD_OpenAI8
-  - HK_Hong Kong_Akile LTD_OpenAI9
-  - HK_Tsuen Wan_Hytron Network Services Limited1
-  - HK_Tsuen Wan_Hytron Network Services Limited2
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI1
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI10
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI2
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI3
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI4
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI5
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI6
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI7
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI8
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI9
+  - 04-013-HK
+  - 04-014-HK
+  - 04-015-HK
+  - 04-021-HK
+  - 04-022-HK
+  - 04-025-HK
+  - 04-026-HK
+  - 04-027-HK
+  - 04-028-HK
+  - 04-029-HK
+  - 04-030-HK
+  - 04-031-HK
+  - 04-032-HK
+  - 04-033-HK
+  - 04-034-HK
+  - 04-035-HK
+  - 04-036-HK
+  - 04-037-HK
+  - 04-038-HK
+  - 04-039-HK
+  - 04-040-HK
+  - 04-041-HK
+  - 04-042-HK
+  - 04-043-HK
+  - 04-044-HK
+  - 04-045-HK
+  - 04-046-HK
+  - 04-047-HK
+  - 04-048-HK
+  - 04-059-HK
+  - 04-060-HK
+  - 04-061-HK
+  - 04-062-HK
+  - 04-063-HK
+  - 04-064-HK
+  - 04-065-HK
+  - 04-066-HK
+  - 04-067-HK
+  - 04-068-HK
+  - 04-069-HK
+  - 04-078-HK
+  - 04-082-HK
+  - 04-093-HK
+  - 04-094-HK
+  - 04-095-HK
+  - 04-096-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -565,8 +802,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - TW_Chang-hua_Chunghwa Telecom Co., Ltd._OpenAI1
-  - TW_Chang-hua_Chunghwa Telecom Co., Ltd._OpenAI2
+  - DIRECT
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -574,9 +810,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI1
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI2
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI3
+  - DIRECT
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -584,7 +818,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - SG_Singapore_DigitalOcean, LLC_OpenAI
+  - DIRECT
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -600,38 +834,7 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - HK_Hong Kong_Akile LTD_OpenAI1
-  - HK_Hong Kong_Akile LTD_OpenAI10
-  - HK_Hong Kong_Akile LTD_OpenAI2
-  - HK_Hong Kong_Akile LTD_OpenAI3
-  - HK_Hong Kong_Akile LTD_OpenAI4
-  - HK_Hong Kong_Akile LTD_OpenAI5
-  - HK_Hong Kong_Akile LTD_OpenAI6
-  - HK_Hong Kong_Akile LTD_OpenAI7
-  - HK_Hong Kong_Akile LTD_OpenAI8
-  - HK_Hong Kong_Akile LTD_OpenAI9
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI1
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI10
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI2
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI3
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI4
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI5
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI6
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI7
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI8
-  - HK_Tsuen Wan_Hytron Network Services Limited_OpenAI9
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI1
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI2
-  - JP_Minamishinagawa_Black Mesa Corporation_OpenAI3
-  - KR_Gwanak-gu_Korea Telecom_OpenAI
-  - PT_Lisbon_I4W - Web Solutions, Lda_OpenAI
-  - SG_Singapore_DigitalOcean, LLC_OpenAI
-  - TW_Chang-hua_Chunghwa Telecom Co., Ltd._OpenAI1
-  - TW_Chang-hua_Chunghwa Telecom Co., Ltd._OpenAI2
-  - VN_Hải Dương_FASTLY_OpenAI1
-  - VN_Hải Dương_FASTLY_OpenAI2
-  - VN_Hải Dương_FASTLY_OpenAI3
-  - VN_Hải Dương_FASTLY_OpenAI4
+  - PROXY
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
