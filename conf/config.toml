@@ -5,7 +5,7 @@ fast_mode = false
 # 支持网络地址 https://xxx
 # 支持本地地址（绝对地址）/User/xxx/xx.yml
 # 支持单个订阅链接，ss://xxx
-subs = [
+subs = ["https://raw.githubusercontent.com/imyaoxp/clashnode/refs/heads/main/sub/sub_merge.txt"
 ]
 
 # 是否重命名节点，打开后会使用 geoip 等方式进行代理真实 IP 和地理地址查询
@@ -13,7 +13,7 @@ rename_node = true
 rename_pattern = "${COUNTRYCODE}_${CITY}_${ISP}"
 
 # 是否需要加上代理池的节点一起筛选
-need_add_pool = true
+need_add_pool = false
 # 代理节点池
 pools = [
     "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml"
