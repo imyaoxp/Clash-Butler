@@ -72,66 +72,6 @@ dns:
   - https://dns.alidns.com/dns-query
 proxies:
 - cipher: aes-128-gcm
-  name: 04-013-HK
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 806
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-014-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 913
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-015-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 817
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-021-HK
-  password: ayucew2
-  plugin: obfs
-  plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9001
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-022-HK
-  password: ayuclsaa
-  plugin: obfs
-  plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 807
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-025-HK
   password: ayucloud1
   plugin: obfs
@@ -300,18 +240,6 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: 04-059-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9048
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-060-HK
   password: QHPy2u
   plugin: obfs
@@ -333,18 +261,6 @@ proxies:
     skip-cert-verify: 'true'
     tls: 'true'
   port: 916
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-062-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 926
   server: 231103level2.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
@@ -396,18 +312,6 @@ proxies:
   server: 231103level2.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: 04-078-HK
-  password: dajkdkjda&dja*/?
-  plugin: obfs
-  plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 19999
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-082-HK
   password: ayds232sffssd1
   plugin: obfs
@@ -456,220 +360,154 @@ proxies:
   server: 231103level1.unclemanco.com
   type: ss
 - cipher: aes-256-cfb
-  name: 05-156-KR
-  password: qwerREWQ@@
-  port: 5344
-  server: 125.141.26.14
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-226-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.24
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-227-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.19
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-228-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.25
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-229-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.27
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-231-KR
+  name: 07-225-KR
   password: qwerREWQ@@
   port: 11389
   server: 221.150.109.89
   type: ss
 - cipher: aes-256-cfb
-  name: 09-445-MD
+  name: 07-226-KR
+  password: qwerREWQ@@
+  port: 5344
+  server: 125.141.26.14
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-437-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
-- cipher: aes-256-cfb
-  name: 14-622-VN
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
-  type: ss
-- cipher: aes-256-cfb
-  name: 14-624-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.32
-  type: ss
-- cipher: aes-256-cfb
-  name: 14-627-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.30
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-639-ID
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 154.205.159.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-644-NL
-  password: QCXDxuDlTTMD7jtgHUjIoj
+  name: 23-645-NL
+  password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
-  server: 193.29.139.138
+  server: 193.29.139.133
   type: ss
 - cipher: aes-256-gcm
   name: 23-646-US
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 67.220.95.230
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.68.135.247
+  type: ss
+- cipher: aes-128-gcm
+  name: 23-647-US
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.132
   type: ss
 - cipher: aes-256-gcm
   name: 23-648-US
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 23.150.248.235
-  type: ss
-- cipher: aes-256-gcm
-  name: 23-649-US
-  password: Y6R9pAtvxxzmGC
-  port: 5001
+  password: XKFKl2rULjIp74
+  port: 8008
   server: 38.121.43.71
+  type: ss
+- cipher: aes-128-gcm
+  name: 23-650-US
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
   type: ss
 - cipher: aes-256-gcm
   name: 23-651-US
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 67.220.95.102
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-658-ES
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 45.154.206.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-662-FR
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.158.171.141
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-665-LT
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.166
-  type: ss
-- cipher: aes-128-gcm
-  name: 23-672-US
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.6
-  type: ss
-- cipher: aes-256-gcm
-  name: 23-683-US
   password: Y6R9pAtvxxzmGC
-  port: 5600
+  port: 5000
   server: 38.143.66.87
   type: ss
-- cipher: aes-128-gcm
-  name: 23-684-US
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
+- cipher: chacha20-ietf-poly1305
+  name: 23-662-LT
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.178
   type: ss
 - cipher: aes-256-gcm
-  name: 23-687-US
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 67.220.95.102
+  name: 23-663-US
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.154.136.51
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-666-PL
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 92.118.205.228
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-668-IE
+  password: zeJp81Cej40Zu1OuPRPnTx
+  port: 23456
+  server: 3.255.250.127
   type: ss
 - cipher: aes-256-gcm
-  name: 23-689-US
+  name: 23-671-US
   password: kDWvXYZoTBcGkC4
-  port: 8882
+  port: 8881
+  server: 38.121.43.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-676-FR
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.158.171.151
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-682-US
+  password: Y6R9pAtvxxzmGC
+  port: 5000
   server: 67.220.95.102
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-685-FR
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.110
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 23-692-NL
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 193.29.139.206
+  server: 193.29.139.162
   type: ss
 - cipher: aes-256-gcm
-  name: 23-694-US
-  password: kDWvXYZoTBcGkC4
-  port: 8882
+  name: 23-702-US
+  password: Y6R9pAtvxxzmGC
+  port: 5000
   server: 38.121.43.71
-  type: ss
-- cipher: aes-256-gcm
-  name: 23-695-US
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 23.154.136.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 23-696-US
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.68.134.202
-  type: ss
-- cipher: aes-128-gcm
-  name: 23-703-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.194
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-705-RU
-  password: 0zyDRZ1XmNXaaCAN7KEA8a
-  port: 28825
-  server: 45.151.62.54
-  type: ss
-- cipher: aes-256-cfb
-  name: 23-715-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.19
+  name: 23-707-US
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 64.74.163.218
   type: ss
 - cipher: aes-256-gcm
-  name: 23-719-US
+  name: 23-713-US
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-714-US
   password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.121.43.71
+  port: 6679
+  server: 23.150.248.235
   type: ss
-- cipher: aes-256-gcm
-  name: 23-721-US
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.121.43.71
+- cipher: chacha20-ietf-poly1305
+  name: 23-716-NL
+  password: vWo8HrYHDKNipzpD9AWlYc
+  port: 19805
+  server: 178.208.91.118
   type: ss
-- cipher: aes-256-gcm
-  name: 23-725-US
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.121.43.71
+- cipher: chacha20-ietf-poly1305
+  name: 23-717-FR
+  password: oHOP1bWFMkQVx3PdbhRlOk
+  port: 8315
+  server: 77.239.116.76
   type: ss
-- cipher: aes-256-gcm
-  name: 23-728-US
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 23.150.152.43
-  type: ss
-- cipher: aes-256-gcm
-  name: 23-731-US
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 23.154.136.44
+- cipher: aes-128-gcm
+  name: 23-719-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.78
   type: ss
 proxy-groups:
 - name: PROXY
@@ -686,11 +524,6 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 04-013-HK
-  - 04-014-HK
-  - 04-015-HK
-  - 04-021-HK
-  - 04-022-HK
   - 04-025-HK
   - 04-026-HK
   - 04-027-HK
@@ -705,55 +538,41 @@ proxy-groups:
   - 04-036-HK
   - 04-037-HK
   - 04-038-HK
-  - 04-059-HK
   - 04-060-HK
   - 04-061-HK
-  - 04-062-HK
   - 04-063-HK
   - 04-064-HK
   - 04-065-HK
   - 04-066-HK
-  - 04-078-HK
   - 04-082-HK
   - 04-093-HK
   - 04-094-HK
   - 04-095-HK
-  - 05-156-KR
-  - 07-226-VN
-  - 07-227-VN
-  - 07-228-VN
-  - 07-229-VN
-  - 07-231-KR
-  - 09-445-MD
-  - 14-622-VN
-  - 14-624-VN
-  - 14-627-VN
-  - 23-639-ID
-  - 23-644-NL
+  - 07-225-KR
+  - 07-226-KR
+  - 09-437-MD
+  - 23-645-NL
   - 23-646-US
+  - 23-647-US
   - 23-648-US
-  - 23-649-US
+  - 23-650-US
   - 23-651-US
-  - 23-658-ES
-  - 23-662-FR
-  - 23-665-LT
-  - 23-672-US
-  - 23-683-US
-  - 23-684-US
-  - 23-687-US
-  - 23-689-US
+  - 23-662-LT
+  - 23-663-US
+  - 23-666-PL
+  - 23-668-IE
+  - 23-671-US
+  - 23-676-FR
+  - 23-682-US
+  - 23-685-FR
   - 23-692-NL
-  - 23-694-US
-  - 23-695-US
-  - 23-696-US
-  - 23-703-GB
-  - 23-705-RU
-  - 23-715-VN
-  - 23-719-US
-  - 23-721-US
-  - 23-725-US
-  - 23-728-US
-  - 23-731-US
+  - 23-702-US
+  - 23-707-US
+  - 23-713-US
+  - 23-714-US
+  - 23-716-NL
+  - 23-717-FR
+  - 23-719-GB
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -770,11 +589,6 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 04-013-HK
-  - 04-014-HK
-  - 04-015-HK
-  - 04-021-HK
-  - 04-022-HK
   - 04-025-HK
   - 04-026-HK
   - 04-027-HK
@@ -789,15 +603,12 @@ proxy-groups:
   - 04-036-HK
   - 04-037-HK
   - 04-038-HK
-  - 04-059-HK
   - 04-060-HK
   - 04-061-HK
-  - 04-062-HK
   - 04-063-HK
   - 04-064-HK
   - 04-065-HK
   - 04-066-HK
-  - 04-078-HK
   - 04-082-HK
   - 04-093-HK
   - 04-094-HK
@@ -834,22 +645,17 @@ proxy-groups:
   tolerance: 2000
   proxies:
   - 23-646-US
+  - 23-647-US
   - 23-648-US
-  - 23-649-US
+  - 23-650-US
   - 23-651-US
-  - 23-672-US
-  - 23-683-US
-  - 23-684-US
-  - 23-687-US
-  - 23-689-US
-  - 23-694-US
-  - 23-695-US
-  - 23-696-US
-  - 23-719-US
-  - 23-721-US
-  - 23-725-US
-  - 23-728-US
-  - 23-731-US
+  - 23-663-US
+  - 23-671-US
+  - 23-682-US
+  - 23-702-US
+  - 23-707-US
+  - 23-713-US
+  - 23-714-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
