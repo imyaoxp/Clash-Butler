@@ -468,40 +468,22 @@ proxies:
   server: 103.186.154.32
   type: ss
 - cipher: aes-256-cfb
-  name: 14-856-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.29
-  type: ss
-- cipher: aes-256-cfb
-  name: 14-858-MD
+  name: 14-859-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-892-NL
+  name: 23-878-NL
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 193.29.139.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-893-NL
-  password: xzzUgX97qFZY37czgNzNDw
-  port: 23822
-  server: 178.208.78.170
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-905-FR
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.158.171.132
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-932-GB
-  password: wfnVhgKBNX7DaN5s25opqL
-  port: 443
-  server: 78.129.140.11
+  name: 23-907-FI
+  password: 0OYP8iU+wQX1ZUMWpLPY1wXY77On22ZJkyZi5bFR4Lw=
+  port: 23819
+  server: 157.180.127.73
   type: ss
 proxy-groups:
 - name: PROXY
@@ -553,12 +535,9 @@ proxy-groups:
   - 07-224-KR
   - 07-225-KR
   - 14-855-VN
-  - 14-856-VN
-  - 14-858-MD
-  - 23-892-NL
-  - 23-893-NL
-  - 23-905-FR
-  - 23-932-GB
+  - 14-859-MD
+  - 23-878-NL
+  - 23-907-FI
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
