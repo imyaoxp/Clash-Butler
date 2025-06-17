@@ -72,11 +72,71 @@ dns:
   - https://dns.alidns.com/dns-query
 proxies:
 - cipher: aes-128-gcm
+  name: 04-013-HK
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: d5f10110643.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 806
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-014-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d5f10110643.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 913
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-015-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d5f10110643.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 817
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-021-HK
+  password: ayucew2
+  plugin: obfs
+  plugin-opts:
+    host: d5f10110643.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9001
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 04-022-HK
+  password: ayuclsaa
+  plugin: obfs
+  plugin-opts:
+    host: d5f10110643.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 807
+  server: 231103level3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
   name: 04-025-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -88,7 +148,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -100,7 +160,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -112,7 +172,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -124,7 +184,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -136,7 +196,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -148,7 +208,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -160,7 +220,7 @@ proxies:
   password: a12cloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -172,7 +232,7 @@ proxies:
   password: ayu1245
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -184,7 +244,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -196,7 +256,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -208,7 +268,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -220,7 +280,7 @@ proxies:
   password: ayucles1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -232,7 +292,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -240,11 +300,23 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
+  name: 04-059-HK
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d5f10110643.download.windowsupdate.com
+    mode: http
+    skip-cert-verify: 'true'
+    tls: 'true'
+  port: 9048
+  server: 231103level2.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
   name: 04-060-HK
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -256,7 +328,7 @@ proxies:
   password: fsfal2
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -268,7 +340,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -280,7 +352,7 @@ proxies:
   password: ayds23sd1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -292,7 +364,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -304,7 +376,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -316,7 +388,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -328,7 +400,7 @@ proxies:
   password: dajkdkjda&dja*/?
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -340,7 +412,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -352,7 +424,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -364,7 +436,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: 82f43110634.download.windowsupdate.com
+    host: d5f10110643.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -372,46 +444,64 @@ proxies:
   server: 231103level1.unclemanco.com
   type: ss
 - cipher: aes-256-cfb
-  name: 07-220-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.24
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-221-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.19
-  type: ss
-- cipher: aes-256-cfb
   name: 07-222-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.25
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-223-VN
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.27
   type: ss
 - cipher: aes-256-cfb
-  name: 07-226-KR
+  name: 07-224-KR
+  password: qwerREWQ@@
+  port: 11389
+  server: 221.150.109.89
+  type: ss
+- cipher: aes-256-cfb
+  name: 07-225-KR
   password: qwerREWQ@@
   port: 5344
   server: 125.141.26.14
   type: ss
 - cipher: aes-256-cfb
-  name: 14-852-VN
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
-  type: ss
-- cipher: aes-256-cfb
-  name: 14-853-VN
+  name: 14-855-VN
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.30
+  server: 103.186.154.32
+  type: ss
+- cipher: aes-256-cfb
+  name: 14-856-VN
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.29
+  type: ss
+- cipher: aes-256-cfb
+  name: 14-858-MD
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-892-NL
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-893-NL
+  password: xzzUgX97qFZY37czgNzNDw
+  port: 23822
+  server: 178.208.78.170
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-905-FR
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.158.171.132
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-932-GB
+  password: wfnVhgKBNX7DaN5s25opqL
+  port: 443
+  server: 78.129.140.11
   type: ss
 proxy-groups:
 - name: PROXY
@@ -428,6 +518,11 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
+  - 04-013-HK
+  - 04-014-HK
+  - 04-015-HK
+  - 04-021-HK
+  - 04-022-HK
   - 04-025-HK
   - 04-026-HK
   - 04-027-HK
@@ -442,6 +537,7 @@ proxy-groups:
   - 04-036-HK
   - 04-037-HK
   - 04-038-HK
+  - 04-059-HK
   - 04-060-HK
   - 04-061-HK
   - 04-062-HK
@@ -453,13 +549,16 @@ proxy-groups:
   - 04-093-HK
   - 04-094-HK
   - 04-095-HK
-  - 07-220-VN
-  - 07-221-VN
   - 07-222-VN
-  - 07-223-VN
-  - 07-226-KR
-  - 14-852-VN
-  - 14-853-VN
+  - 07-224-KR
+  - 07-225-KR
+  - 14-855-VN
+  - 14-856-VN
+  - 14-858-MD
+  - 23-892-NL
+  - 23-893-NL
+  - 23-905-FR
+  - 23-932-GB
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -476,6 +575,11 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
+  - 04-013-HK
+  - 04-014-HK
+  - 04-015-HK
+  - 04-021-HK
+  - 04-022-HK
   - 04-025-HK
   - 04-026-HK
   - 04-027-HK
@@ -490,6 +594,7 @@ proxy-groups:
   - 04-036-HK
   - 04-037-HK
   - 04-038-HK
+  - 04-059-HK
   - 04-060-HK
   - 04-061-HK
   - 04-062-HK
