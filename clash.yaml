@@ -72,83 +72,11 @@ dns:
   - https://dns.alidns.com/dns-query
 proxies:
 - cipher: aes-128-gcm
-  name: 04-013-HK
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 806
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-014-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 913
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-015-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 817
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-021-HK
-  password: ayucew2
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9001
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-022-HK
-  password: ayuclsaa
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 807
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-025-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 919
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-026-HK
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -156,47 +84,11 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: 04-027-HK
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 834
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-028-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 908
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-029-HK
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9040
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-030-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -204,47 +96,11 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: 04-031-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 905
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-032-HK
-  password: a12cloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 904
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-033-HK
-  password: ayu1245
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 824
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-034-HK
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -256,7 +112,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -264,107 +120,11 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: 04-036-HK
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 20012
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-037-HK
-  password: ayucles1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 907
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-038-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 823
-  server: 231103level3.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-059-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9048
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-060-HK
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 9022
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-061-HK
-  password: fsfal2
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 916
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-062-HK
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 926
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 04-063-HK
-  password: ayds23sd1
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 39004
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-064-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -376,7 +136,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -388,7 +148,7 @@ proxies:
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -396,23 +156,11 @@ proxies:
   server: 231103level2.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: 04-078-HK
-  password: dajkdkjda&dja*/?
-  plugin: obfs
-  plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 19999
-  server: 231103level2.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
   name: 04-093-HK
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -424,7 +172,7 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
@@ -436,18 +184,12 @@ proxies:
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: d5f10110643.download.windowsupdate.com
+    host: 3b646110647.download.windowsupdate.com
     mode: http
     skip-cert-verify: 'true'
     tls: 'true'
   port: 840
   server: 231103level1.unclemanco.com
-  type: ss
-- cipher: aes-256-cfb
-  name: 07-222-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.27
   type: ss
 - cipher: aes-256-cfb
   name: 07-224-KR
@@ -461,29 +203,137 @@ proxies:
   port: 5344
   server: 125.141.26.14
   type: ss
-- cipher: aes-256-cfb
-  name: 14-855-VN
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.32
+- cipher: aes-256-gcm
+  name: 23-858-US
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-128-gcm
+  name: 23-859-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-860-US
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.68.135.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-861-GR
+  password: Z0UurGkG6iJa
+  port: 443
+  server: 185.39.207.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-862-US
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.107.226.14
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-867-US
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 38.121.43.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-868-LT
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-872-US
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-873-US
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-128-gcm
+  name: 23-874-US
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.130
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-875-NL
+  password: yMX9WGPgUEcRZmlaa0YHHC
+  port: 23492
+  server: 103.106.1.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-876-LT
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.87.175.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-877-US
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 67.220.95.102
+  type: ss
+- cipher: aes-128-gcm
+  name: 23-900-US
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-902-HK
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 203.23.128.33
   type: ss
 - cipher: aes-256-cfb
-  name: 14-859-MD
+  name: 23-905-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-878-NL
-  password: QCXDxuDlTTMD7jtgHUjIoj
+  name: 23-910-LT
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 193.29.139.138
+  server: 45.87.175.154
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-917-US
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.68.134.202
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-918-US
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.121.43.71
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-907-FI
-  password: 0OYP8iU+wQX1ZUMWpLPY1wXY77On22ZJkyZi5bFR4Lw=
-  port: 23819
-  server: 157.180.127.73
+  name: 23-929-PY
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 38.165.233.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-932-CZ
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 195.181.160.6
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-935-EC
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.47.253.227
   type: ss
 proxy-groups:
 - name: PROXY
@@ -500,44 +350,40 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 04-013-HK
-  - 04-014-HK
-  - 04-015-HK
-  - 04-021-HK
-  - 04-022-HK
-  - 04-025-HK
   - 04-026-HK
-  - 04-027-HK
-  - 04-028-HK
-  - 04-029-HK
   - 04-030-HK
-  - 04-031-HK
-  - 04-032-HK
-  - 04-033-HK
   - 04-034-HK
   - 04-035-HK
-  - 04-036-HK
-  - 04-037-HK
-  - 04-038-HK
-  - 04-059-HK
-  - 04-060-HK
-  - 04-061-HK
-  - 04-062-HK
-  - 04-063-HK
   - 04-064-HK
   - 04-065-HK
   - 04-066-HK
-  - 04-078-HK
   - 04-093-HK
   - 04-094-HK
   - 04-095-HK
-  - 07-222-VN
   - 07-224-KR
   - 07-225-KR
-  - 14-855-VN
-  - 14-859-MD
-  - 23-878-NL
-  - 23-907-FI
+  - 23-858-US
+  - 23-859-GB
+  - 23-860-US
+  - 23-861-GR
+  - 23-862-US
+  - 23-867-US
+  - 23-868-LT
+  - 23-872-US
+  - 23-873-US
+  - 23-874-US
+  - 23-875-NL
+  - 23-876-LT
+  - 23-877-US
+  - 23-900-US
+  - 23-902-HK
+  - 23-905-MD
+  - 23-910-LT
+  - 23-917-US
+  - 23-918-US
+  - 23-929-PY
+  - 23-932-CZ
+  - 23-935-EC
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -554,37 +400,17 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 04-013-HK
-  - 04-014-HK
-  - 04-015-HK
-  - 04-021-HK
-  - 04-022-HK
-  - 04-025-HK
   - 04-026-HK
-  - 04-027-HK
-  - 04-028-HK
-  - 04-029-HK
   - 04-030-HK
-  - 04-031-HK
-  - 04-032-HK
-  - 04-033-HK
   - 04-034-HK
   - 04-035-HK
-  - 04-036-HK
-  - 04-037-HK
-  - 04-038-HK
-  - 04-059-HK
-  - 04-060-HK
-  - 04-061-HK
-  - 04-062-HK
-  - 04-063-HK
   - 04-064-HK
   - 04-065-HK
   - 04-066-HK
-  - 04-078-HK
   - 04-093-HK
   - 04-094-HK
   - 04-095-HK
+  - 23-902-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -616,7 +442,17 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - DIRECT
+  - 23-858-US
+  - 23-860-US
+  - 23-862-US
+  - 23-867-US
+  - 23-872-US
+  - 23-873-US
+  - 23-874-US
+  - 23-877-US
+  - 23-900-US
+  - 23-917-US
+  - 23-918-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
