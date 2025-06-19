@@ -71,68 +71,50 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- cipher: aes-128-gcm
-  name: 04-078-HK
-  password: dajkdkjda&dja*/?
-  plugin: obfs
-  plugin-opts:
-    host: 43fe0110677.download.windowsupdate.com
-    mode: http
-    skip-cert-verify: 'true'
-    tls: 'true'
-  port: 19999
-  server: 231103level2.unclemanco.com
-  type: ss
 - cipher: aes-256-cfb
-  name: 07-181-KR
+  name: 07-182-KR
   password: qwerREWQ@@
   port: 11389
   server: 221.150.109.89
   type: ss
 - cipher: aes-256-cfb
-  name: 07-182-KR
+  name: 07-183-KR
   password: qwerREWQ@@
   port: 5344
   server: 125.141.26.14
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-355-LT
+  name: 23-361-LT
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.87.175.69
   type: ss
 - cipher: aes-256-gcm
-  name: 23-359-US
+  name: 23-365-US
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 38.121.43.71
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-371-DE
+  name: 23-377-DE
   password: sd50HD4mAXode2vAqrun2y
   port: 14628
   server: 45.150.32.13
   type: ss
 - cipher: aes-256-gcm
-  name: 23-382-CN
+  name: 23-388-CN
   password: dwz1GtF7
   port: 30232
   server: 112.54.160.36
   type: ss
-- cipher: aes-256-cfb
-  name: 23-383-KR
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-408-NL
+  name: 23-414-NL
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.132
   type: ss
 - cipher: aes-256-cfb
-  name: 23-411-KR
+  name: 23-417-KR
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
@@ -152,16 +134,14 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 04-078-HK
-  - 07-181-KR
   - 07-182-KR
-  - 23-355-LT
-  - 23-359-US
-  - 23-371-DE
-  - 23-382-CN
-  - 23-383-KR
-  - 23-408-NL
-  - 23-411-KR
+  - 07-183-KR
+  - 23-361-LT
+  - 23-365-US
+  - 23-377-DE
+  - 23-388-CN
+  - 23-414-NL
+  - 23-417-KR
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -178,7 +158,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 04-078-HK
+  - DIRECT
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -210,7 +190,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 23-359-US
+  - 23-365-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
